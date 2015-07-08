@@ -1,0 +1,28 @@
+{
+  "name": "vpm",
+  "description": "开源包管理工具",
+  "main": "index.js",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "vpm -v"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gavinning/vpm.git"
+  },
+  "keywords": [
+    "vpm"
+  ],
+  "author": "gavinning",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/gavinning/vpm/issues"
+  },
+  "homepage": "https://github.com/gavinning/vpm",
+  "dependencies": {
+      "vpm-cli": "^1.0.0",
+      "vpm-config": "^1.0.0",
+      "vpm-command-install": "~1.0.0",
+      "vpm-command-publish": "~1.0.0"
+  }
+}
